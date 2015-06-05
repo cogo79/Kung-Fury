@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kung Fury</title>
+	<style>
+		body {
+			background-color: black;
+			color: red;
+			font-family: "Arial Black", Gadget, sans-serif;
+		}
+		h1 {
+			font-size: 84px;
+			margin-bottom: 0px;
+		}
+		article > p {
+			margin-top: 0px;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		img {
+			position: absolute;
+			top: 35px;
+			margin-left: 60px;
+		}
+		.hf {
+
+			height: 15px;
+			background-color: rgba(208,97,199,0.5);
+			border-radius: 7px;
+		}
+		header {
+			overflow: hidden;
+
+		}
+		
+		footer {
+			padding-left: 15px;
+			font-size: 10px;
+			position:absolute;
+   			bottom:8px;
+   			width: calc(100% - 31px);
+		}
+		.links {
+			margin-left: 30px;
+			position: absolute;
+			bottom: 33px;
+		}
+		.scrolling-info {
+			margin-left: 20px;
+		}
+		.scroll-right {
+			/*position: relative;
+			top: -88px;*/
+			overflow: hidden;
+			position: relative;
+			height: 15px;
+			border-radius: 7px;
+		}
+
+.scroll-right p {
+ position: relative;
+top: -3px;
+ width: 1200px;
+ height: 15px;
+ margin: 0;
+ font-size: 14px;
+
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);	
+ transform:translateX(-100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-right 25s linear infinite;
+ -webkit-animation: scroll-right 25s linear infinite;
+ animation: scroll-right 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-right {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes scroll-right {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+@keyframes scroll-right {
+ 0%   { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 
+ }
+}
+
+	</style>
+
+</head>
+
+<body>
+	<header class="hf">
+		<img src="Kung Fury.jpg" alt="Smiley face" width="80" height="80" >
+		<div class="scroll-right">
+			<p>
+				<span class="scrolling-info">Sold out in Stockholm!!!</span>
+				<span class="scrolling-info">Sold out in Helsinki!!!</span>
+				<span class="scrolling-info">Massive outrage all over the world amoung grandmas how thinks todays youth has gone to far!</span>
+			</p>
+		</div>
+		
+	</header>
+	<center>
+		<h1>KUNG FURY</h1>
+		<article>
+			<p>Kung Fury är en svensk actionkomedifilm från 2015, skriven och regisserad av David Sandberg, som också spelar huvudrollen. Filmen har hämtat inspiration från 1980-talets polisfilmer och har till största delen finansierats via Kickstarter, där den blivit det största projektet i Sverige med 4,3 miljoner insamlade kronor. Filmen hade världspremiär den 22 maj 2015 under Filmfestivalen i Cannes, samt TV-premiär på SVT 2 den 28 maj samma år. Samma datum lanserades den också online på Youtube och SVT Play.</p>
+		</article>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/72RqpItxd8M" frameborder="0" allowfullscreen></iframe>
+
+	</center>
+	<div class="links">
+		<a href="http://www.kungfury.com/">www.kungfury.com</a><br>
+		<a href="http://www.aftonbladet.se/nojesbladet/film/article20895097.ab">www.aftonbladet.se/nojesbladet/film/article20895097.ab</a>
+	</div>
+	
+	<footer class="hf">
+		Webmaster: Miguel Ehrstrand. Uppdraget kommer från FS.
+	</footer>
+</body>
+
+</html>
